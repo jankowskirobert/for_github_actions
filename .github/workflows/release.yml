@@ -1,0 +1,10 @@
+name: Release Sample Workflow
+on: workflow_dispatch
+jobs:
+  first-to-execute:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hellnooo
+        run: echo "HELL of nothing"
+      - name: Step OUT
+        run: echo "done boi"
